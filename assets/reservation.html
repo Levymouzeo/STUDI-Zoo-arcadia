@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Réservation - Zoo Arcadia</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Zoo Arcadia</div>
+      <nav>
+        <ul>
+          <li><a href="Acceuil.html">Accueil</a></li>
+          <li><a href="Animaux.html">Animaux</a></li>
+          <li><a href="reservation.html">Réservation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="reservation">
+      <h2>Réservez vos billets</h2>
+      <form id="reservation-form">
+        <label for="date">Date de visite :</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="ticket-type">Type de billet :</label>
+        <select id="ticket-type" name="ticket-type">
+          <option value="adulte">Adulte - 15€</option>
+          <option value="enfant">Enfant - 10€</option>
+          <option value="etudiant">Étudiant - 12€</option>
+          <option value="senior">Senior - 13€</option>
+        </select>
+
+        <label for="quantity">Nombre de billets :</label>
+        <input
+          type="number"
+          id="quantity"
+          name="quantity"
+          min="1"
+          value="1"
+          required
+        />
+
+        <label for="email">Email de confirmation :</label>
+        <input type="email" id="email" name="email" required />
+
+        <h3>Total : <span id="total-price">15</span>€</h3>
+
+        <button type="submit">Réserver</button>
+      </form>
+    </section>
+
+    <script src="script2.js"></script>
+  </body>
+</html>

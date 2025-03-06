@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Événements - Zoo Arcadia</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Zoo Arcadia</div>
+      <nav>
+        <ul>
+          <li><a href="Acceuil.html">Accueil</a></li>
+          <li><a href="animaux.html">Nos animaux</a></li>
+          <li><a href="evenements.html" class="active">Événements</a></li>
+          <li><a href="billeterie.html">Billetterie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Nos événements</h1>
+      <p>Découvrez les animations et activités à ne pas manquer !</p>
+    </section>
+
+    <section class="event-list">
+      <h2>Événements à venir</h2>
+      <div class="events-container">
+        <div class="event-card">
+          <img src="images/event1.jpg" alt="Spectacle des oiseaux" />
+          <h3>Spectacle des oiseaux exotiques</h3>
+          <p><strong>Date :</strong> 15 avril 2025</p>
+          <p>
+            Un spectacle fascinant avec des perroquets et autres oiseaux rares.
+          </p>
+          <button class="reserve-btn">Réserver une place</button>
+        </div>
+
+        <div class="event-card">
+          <img src="images/event2.jpg" alt="Nourrissage des lions" />
+          <h3>Nourrissage des lions</h3>
+          <p><strong>Date :</strong> 20 avril 2025</p>
+          <p>
+            Assistez au repas des lions et découvrez leurs habitudes
+            alimentaires.
+          </p>
+          <button class="reserve-btn">Réserver une place</button>
+        </div>
+
+        <div class="event-card">
+          <img src="images/event3.jpg" alt="Soirée safari nocturne" />
+          <h3>Safari nocturne</h3>
+          <p><strong>Date :</strong> 25 avril 2025</p>
+          <p>Une visite exceptionnelle pour observer les animaux de nuit.</p>
+          <button class="reserve-btn">Réserver une place</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation-form">
+      <form action="reservation.php" method="POST">
+        <input type="hidden" name="visiteur_id" value="1" />
+        <!-- ID du visiteur connecté -->
+        <input type="hidden" name="billet_id" value="2" />
+        <!-- ID d'un billet existant -->
+
+        <label for="evenement">Choisissez un événement :</label>
+        <select name="evenement_id" id="evenement" required>
+          <option value="1">Safari Nocturne</option>
+          <option value="2">Rencontre avec les soigneurs</option>
+        </select>
+
+        <button type="submit">Réserver</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Zoo Arcadia - Tous droits réservés</p>
+    </footer>
+
+    <script src="script2.js"></script>
+  </body>
+</html>

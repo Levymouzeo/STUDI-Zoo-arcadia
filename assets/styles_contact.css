@@ -1,0 +1,113 @@
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+}
+
+/* HEADER */
+header {
+    background: #333;
+    color: #f5f5dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* SECTION CONTACT */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f5f5dc;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #d1793e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background: #b85c2a;
+}
+
+/* INFORMATIONS PRATIQUES */
+.infos {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f8f8;
+}
+
+/* CARTE INTERACTIVE */
+.map {
+    text-align: center;
+    padding: 40px 20px;
+    width: 80%;
+    margin: auto;
+}
+
+#map {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* FOOTER */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

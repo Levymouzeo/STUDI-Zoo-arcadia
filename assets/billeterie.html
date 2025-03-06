@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billetterie - Zoo Arcadia</title>
+    <link rel="stylesheet" href="styles_billeterie.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Zoo Arcadia</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="animaux.html">Nos animaux</a></li>
+          <li><a href="evenements.html">Événements</a></li>
+          <li><a href="billetterie.html" class="active">Billetterie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Billetterie</h1>
+      <p>Réservez vos billets pour une journée inoubliable au Zoo Arcadia !</p>
+    </section>
+
+    <section class="tickets">
+      <h2>Choisissez vos billets</h2>
+      <form id="ticket-form">
+        <div class="ticket-option">
+          <label>Adulte (15€) :</label>
+          <input type="number" id="adult" name="adult" min="0" value="0" />
+        </div>
+        <div class="ticket-option">
+          <label>Enfant (10€) :</label>
+          <input type="number" id="child" name="child" min="0" value="0" />
+        </div>
+        <div class="ticket-option">
+          <label>Étudiant (12€) :</label>
+          <input type="number" id="student" name="student" min="0" value="0" />
+        </div>
+        <div class="ticket-option">
+          <label>Senior (13€) :</label>
+          <input type="number" id="senior" name="senior" min="0" value="0" />
+        </div>
+
+        <h3>Total : <span id="total-price">0</span> €</h3>
+
+        <button type="submit">Procéder au paiement</button>
+      </form>
+    </section>
+
+    <section class="tickets">
+      <h2>Choisissez vos billets</h2>
+      <form id="ticket-form" action="liste_paiements.php" method="POST">
+        <div class="ticket-option">
+          <label>Adulte (15€) :</label>
+          <input type="number" id="adult" name="adult" min="0" value="0" />
+        </div>
+        <div class="ticket-option">
+          <label>Enfant (10€) :</label>
+          <input type="number" id="child" name="child" min="0" value="0" />
+        </div>
+        <div class="ticket-option">
+          <label>Étudiant (12€) :</label>
+          <input type="number" id="student" name="student" min="0" value="0" />
+        </div>
+        <div class="ticket-option">
+          <label>Senior (13€) :</label>
+          <input type="number" id="senior" name="senior" min="0" value="0" />
+        </div>
+
+        <h3>Total : <span id="total-price">0</span> €</h3>
+        <input type="hidden" id="hidden-total" name="prix" />
+
+        <h2>Paiement</h2>
+        <label>Type :</label>
+        <input type="text" name="type" required />
+
+        <label>Date d'achat :</label>
+        <input type="date" name="date_achat" required />
+
+        <label>Méthode de paiement :</label>
+        <select name="methode" required>
+          <option value="Carte bancaire">Carte bancaire</option>
+          <option value="PayPal">PayPal</option>
+          <option value="Espèces">Espèces</option>
+        </select>
+
+        <button type="submit">Payer</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Zoo Arcadia - Tous droits réservés</p>
+    </footer>
+
+    <script src="billetterie.js"></script>
+  </body>
+</html>

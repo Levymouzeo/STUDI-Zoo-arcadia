@@ -1,0 +1,147 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    background-color: #3a7d44;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Section Hero */
+.hero {
+    background: url('../assets/images/zoo_banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 24px;
+}
+
+/* Section Billets */
+.tickets {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tickets h2 {
+    text-align: center;
+    color: #3a7d44;
+}
+
+.ticket-option {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.ticket-option input {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+h3 {
+    text-align: center;
+    color: #d35400;
+}
+
+/* Bouton de paiement */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #3a7d44;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2e5f34;
+}
+
+/* Section Paiement */
+.payment-form {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h2 {
+    text-align: center;
+    color: #3a7d44;
+}
+
+.payment-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.payment-form input,
+.payment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3a7d44;
+    color: white;
+    margin-top: 30px;
+}

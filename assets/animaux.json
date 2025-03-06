@@ -1,0 +1,37 @@
+[
+    {
+        "nom": "Lion",
+        "image": "../assets/images/Lion.jpg",
+        "description": "Le roi de la savane, connu pour sa crinière majestueuse.Il vit dans la savane, en Afrique, et mesure environ 1 mètre en hauteur et jusqu’à 2 mètres de longueur (sans la queue). Le lion a un pelage couleur sable avec parfois des taches brunes chez les plus jeunes. Le mâle porte une crinière, contrairement aux femelles et aux lionceaux. Le lion vit en meute, composée principalement de femelles et leurs lionceaux, et un ou plusieurs mâles adultes protègent la meute." 
+    },
+    {
+        "nom": "Panda",
+        "image": "../assets/images/Panda.jpg",
+        "description": "Un animal emblématique de la Chine, qui adore manger du bambou.Il mesure environ 1,2 à 1,8m et pèse jusqu'à 150 kg. Il adore manger des kilos de bambous, qu'il attrape avec sa patte qui possède une sorte de 6ème doigt. Pour la reproduction, la femelle panda donne naissance à un ourson tous les deux ans. Le petit panda, quant à lui, vit beaucoup dans les arbres, mesure environ 60 centimètres de long et pèse entre 3 et 4 kg."
+    },
+    {
+        "nom": "Tigre",
+        "image": "../assets/images/Tigre.jpg",
+        "description": "Un félin puissant avec des rayures noires uniques. Il a une mâchoire très puissante et d’énormes pattes. Son pelage est orange, noir et blanc. Ses yeux sont bruns-verts. Sa vue dans l'obscurité est excellente.Il peut voir 5 fois mieux que l’homme dans l’obscurité."
+    },
+    {
+        "nom": "Girafe",
+        "image": "../assets/images/Girafe.jpg",
+        "description": "L'animal le plus grand du monde, grâce à son long cou.La girafe est une espèce de mammifère ongulé, vivant dans la savane africaine. La girafe a évolué pendant des millions d'années et son corps a changé afin qu'elles puissent brouter la cime des arbres. C'est le plus grand animal (en hauteur)."
+    },
+    {
+        "nom": "Koala",
+        "image": "../assets/images/Koala.jpg",
+        "description": "Un animal mignon qui dort beaucoup et adore les eucalyptus.Le koala est un marsupial arboricole herbivore endémique de l'Australie. Il est facilement reconnaissable à sa fourrure épaisse, ses oreilles rondes et son nez noir. Il est principalement nocturne et dort 20 heures par jour."
+    },
+    {
+        "nom": "Poule",
+        "image": "../assets/images/Poule.jpg",
+        "description": "Un animal de ferme qui pond des oeufs et qui est souvent élevé pour sa viande.La poule est un animal de basse-cour élevé pour ses œufs et sa chair. Elle est souvent élevée en batterie, mais de plus en plus d'éleveurs optent pour l'élevage en plein air. La poule est un animal grégaire qui vit en groupe."
+    },
+    {
+        "nom": "Loup",
+        "image": "../assets/images/Loup.jpg",
+        "description": "Le loup, ou loup gris (en latin canis lupus), est l'espèce de loup la plus répandue. C'est un mammifère de l'ordre des carnivores et de la famille des canidés." 
+    }
+]

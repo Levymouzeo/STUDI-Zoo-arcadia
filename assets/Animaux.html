@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos Animaux - Zoo Arcadia</title>
+    <link rel="stylesheet" href="styles_animaux.css" />
+    <link rel="icon" type="image/png" href="../assets/images/favicon.ico" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">Zoo Arcadia</div>
+      <nav>
+        <ul>
+          <li><a href="Acceuil.html">Accueil</a></li>
+          <li><a href="Animaux.html">Animaux</a></li>
+          <li><a href="evenements.html">Événements</a></li>
+          <li><a href="billeterie.html">Billetterie</a></li>
+          <li><a href="#">Commentaires</a></li>
+          <li><a href="#">À propos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- SECTION ANIMAUX -->
+    <section class="animaux">
+      <h1>Découvrez nos animaux</h1>
+      <p>Explorez les différentes espèces présentes dans notre zoo.</p>
+
+      <!-- Barre de recherche -->
+      <input type="text" id="search" placeholder="Rechercher un animal..." />
+
+      <!-- Liste des fiches animaux -->
+      <div class="grid-animaux">
+        <div class="animal-card">
+          <img src="../assets/images/Lion.jpg" alt="Lion" />
+          <h3>Lion</h3>
+          <p>Roi de la savane, il vit principalement en Afrique.</p>
+          <button class="details-btn">En savoir plus</button>
+        </div>
+
+        <div class="animal-card">
+          <img src="../assets/images/Elephant.jpg" alt="Éléphant" />
+          <h3>Éléphant</h3>
+          <p>Grand mammifère herbivore, il vit en Afrique et en Asie.</p>
+          <button class="details-btn">En savoir plus</button>
+        </div>
+
+        <div class="animal-card">
+          <img src="../assets/images/Panda.jpg" alt="Panda" />
+          <h3>Panda</h3>
+          <p>Originaire de Chine, il se nourrit principalement de bambous.</p>
+          <button class="details-btn">En savoir plus</button>
+        </div>
+      </div>
+    </section>
+    <section class="animaux">
+      <h2>Nos Animaux</h2>
+      <input type="text" id="search" placeholder="Rechercher un animal..." />
+      <div class="animaux-container"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2025 Zoo Arcadia - Tous droits réservés</p>
+    </footer>
+
+    <script src="script_animaux.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Spectacle des oiseaux exotiques",
+        "date": "15 avril 2025",
+        "description": "Un spectacle fascinant avec des perroquets et autres oiseaux rares.",
+        "image": "images/event1.jpg"
+    },
+    {
+        "title": "Nourrissage des lions",
+        "date": "20 avril 2025",
+        "description": "Assistez au repas des lions et découvrez leurs habitudes alimentaires.",
+        "image": "images/event2.jpg"
+    },
+    {
+        "title": "Safari nocturne",
+        "date": "25 avril 2025",
+        "description": "Une visite exceptionnelle pour observer les animaux de nuit.",
+        "image": "images/event3.jpg"
+    }
+]
